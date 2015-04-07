@@ -1,5 +1,7 @@
 I'd been working on the Rails framework for a while now but I hadn't yet made a contribution back to Rails until very recently. I wanted to do something about that. This post is mostly about the journey that helped me get there and also some pointers based on my experience of how one can get there too.
 
+I've also given a lightning talk on this at [RubyConfIndia 2015](http://rubyconfindia.org/). You can view the slides [here](http://goo.gl/yr87oM) if you'd like to see a shorter version of this blogpost.
+
 I was working on a Rails 4.1.x project and for one of the requirements I had to run a custom rake task and pass command line arguments to it. I didn't know how to do it and yeah, you guessed it right, I hit Google.
 
 I found a couple of links(Blogs, Stackoverflow etc.,) that helped, but [this blog](http://davidlesches.com/blog/passing-arguments-to-a-rails-rake-task) in particular was closest to what I was looking for. I wanted to have the ability to run my rake task for specific environments and the `:environment` option allowed me to do just that.
